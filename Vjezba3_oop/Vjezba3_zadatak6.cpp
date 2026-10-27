@@ -39,7 +39,7 @@ int main() {
     std::cout << "Najdulja: " << najdulja << '\n';
     std::string obrnuto;
     for (int i = rijeci.size() - 1; i >= 0; i--) {
-        obrnuto += rijeci[i];s
+        obrnuto += rijeci[i];
         if (i > 0) {
             obrnuto += "-";
         }
